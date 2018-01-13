@@ -1,0 +1,25 @@
+[package]
+name = "gltf-glb"
+version = "0.0.1"
+authors = ["sjfricke <spencerfricke@gmail.com>"]
+description = "glTF to glb converter"
+documentation = "https://docs.rs/gltf-glb"
+repository = "https://github.com/gltf-glb/gltf-glb"
+homepage = "https://github.com/gltf-glb/gltf-glb"
+readme = "README.md"
+keywords = ["glTF", "glb", "3D", "asset", "model", "scene"]
+
+[dependencies]
+#byteorder = "1.1"
+#cgmath = "0.15"
+#gltf-json = "0.10.0"
+#docopt = "0.8"
+#serde = "1.serde_derive = "1.0"
+#serde_derive = "1.0"
+#serde_json = "1.0"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
